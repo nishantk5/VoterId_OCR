@@ -1,6 +1,6 @@
 pillow==7.0.0
 pytesseract==0.3.4
-flask==1.1.1
+Flask==1.1.1
 werkzeug==1.0.0
 gunicorn==19.9.0
 Jinja2==2.10.1
