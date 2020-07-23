@@ -6,6 +6,7 @@ from PIL import Image
 from flask import Flask,jsonify,request,render_template
 from werkzeug.utils import secure_filename
 #pytesseract.pytesseract.tesseract_cmd=r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = ‘/app/.apt/usr/bin/tesseract’
 app=Flask(__name__)
 UPLOAD_FOLDER='./uploads'
 app.config['UPLOAD_FOLDER']=UPLOAD_FOLDER
